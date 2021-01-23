@@ -1,0 +1,27 @@
+h1{
+color: cyan;
+}    
+h3{
+color: blue;
+text-align: center;
+}
+p{
+color: chocolate;
+}
+
+/**{
+border: solid;
+}*/
+
+.Introduction{
+background-color: rgba(17, 0, 255, 0.815);
+display: flex;
+justify-content: space-around;
+}
+
+.Grid{
+display: flex; 
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+
