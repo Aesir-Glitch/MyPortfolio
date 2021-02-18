@@ -1,20 +1,19 @@
 h1{
-color: cyan;
+color: #00ccff;
+margin: 10px;
 }    
 h3{
-color: blue;
+color: #00ccff;
 text-align: center;
+margin: 10px;
 }
 p{
-color: chocolate;
+color: #00ccff;
+margin: 10px;
 }
 
-/**{
-border: solid;
-}*/
-
 .Introduction{
-background-color: rgba(17, 0, 255, 0.815);
+background-color: #ff0000;
 display: flex;
 justify-content: space-around;
 }
@@ -25,3 +24,46 @@ flex-wrap: wrap;
 justify-content: space-evenly;
 }
 
+.Grid2{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+flex-basis: 100%;
+padding: 80px;
+}
+
+.Item{
+border: solid;
+position: relative;
+}
+
+.Item p{
+position: absolute;
+top: 30%;
+left: 20%;
+opacity: 0;
+}
+
+.Item:hover p{
+opacity: 1;
+}
+
+.Item:hover img{
+opacity: 0.2;
+}
+
+body{
+background-image: url("Background.png");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+}
+
+a:link{
+color: whitesmoke;
+}
+
+a:visited{
+color: steelblue;
+}
